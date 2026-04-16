@@ -29,8 +29,8 @@ const Header = () => {
                 </div>
                 <div className='flex items-center gap-4 pt-2 animate-fade-in-up delay-400'>
                     <div className='flex -space-x-2'>
-                        {[1,2,3,4].map((i) => (
-                            <img key={i} className='w-10 h-10 rounded-full border-2 border-white dark:border-gray-800' src={`https://i.pravatar.cc/100?img=${i+10}`} alt="" />
+                        {[1, 2, 3, 4].map((i) => (
+                            <img key={i} className='w-10 h-10 rounded-full border-2 border-white dark:border-gray-800' src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="" />
                         ))}
                     </div>
                     <p className='text-sm text-gray-500 dark:text-gray-300'><span className='font-semibold text-gray-800 dark:text-white'>500+</span> patients trust us</p>
@@ -39,7 +39,7 @@ const Header = () => {
 
             <div className='md:w-1/2 relative flex items-center justify-center animate-scale-in'>
                 <div className='relative'>
-                    <img className='w-full max-w-md h-auto rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500' src={assets.header_img} alt="" />
+                    <img className='w-full max-w-md h-auto rounded-2xl shadow-2xl hover:scale-105 transition-transform duration-500' src={'https://res.cloudinary.com/dkdgdabxr/image/upload/v1776315569/WhatsApp_Image_2026-04-16_at_12.26.06_AM_cbwm3y.jpg'} alt="" />
                     <div className='absolute -bottom-4 -left-4 bg-white dark:bg-gray-800 p-4 rounded-xl shadow-lg animate-float'>
                         <div className='flex items-center gap-3'>
                             <div className='w-10 h-10 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center'>
